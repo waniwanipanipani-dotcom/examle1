@@ -39,7 +39,8 @@ h2, h3, h4 {
 /* ヘッダー */
 .main-header {
     background-color: var(--color-dark);
-    padding: 15px 0;
+    
+    height:65px;
     position: sticky;
     top: 0;
     z-index: 1000;
@@ -50,21 +51,39 @@ h2, h3, h4 {
     font-size: 2rem;
     color: var(--color-text);
     letter-spacing: 1px;
+    float: left;
+
+    line-height: 65px;
+    float:left;
 }
+
 
 #main-nav ul {
     list-style: none;
     display: flex;
+    
+    float: right;
+    line-height: 65px;
+
 }
 
 #main-nav ul li a {
     color: var(--color-text);
-    padding: 10px 15px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-weight: 300;
 }
 
 #main-nav ul li a:hover {
     color: var(--color-accent);
+}
+
+.menu-toggle {
+  color: white;
+  float: right;
+  font-size: 25px;
+  
+  display:none;
 }
 
 /* ヒーローセクション */
@@ -312,7 +331,6 @@ h2, h3, h4 {
 }
 
 /* --- レスポンシブデザイン --- */
-/* ハンバーガーメニュー、価格ボックスなどは前回のコードと同じロジックで対応 */
 
 @media (max-width: 768px) {
     /* ナビゲーションの切り替え */
