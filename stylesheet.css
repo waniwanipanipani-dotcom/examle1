@@ -81,7 +81,7 @@ h2, h3, h4 {
 .menu-toggle {
   color: white;
   float: right;
-  font-size: 25px;
+  font-size: 65px;
   
   display:none;
 }
@@ -339,11 +339,7 @@ h2, h3, h4 {
     }
     .menu-toggle {
         display: block;
-        background: none;
-        border: none;
-        cursor: pointer;
-        font-size: 1.5rem;
-        color: #fff;
+        
     }
     #main-nav {
         display: none;
