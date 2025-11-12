@@ -82,7 +82,7 @@ h2, h3, h4 {
   color: white;
   float: right;
   font-size: 25px;
-  margin-top:10px;
+  padding-top:10px;
   display:none;
 }
 
