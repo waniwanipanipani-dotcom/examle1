@@ -80,6 +80,7 @@ h2, h3, h4 {
 
 .menu-toggle {
   color: white;
+  background-color: var(--color-dark);
   float: right;
   font-size: 40px;
   display:none;
