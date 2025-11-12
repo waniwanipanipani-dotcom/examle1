@@ -81,7 +81,7 @@ h2, h3, h4 {
 .menu-toggle {
   color: white;
   float: right;
-  font-size: 100%;
+  font-size: 25px;
   
   display:none;
 }
